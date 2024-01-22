@@ -4,4 +4,6 @@ def half_tree(rows):
     for counts in range(rows, 0, -1):
         print('*' * counts)
 
-        
+# run the program
+length = 5
+print(half_tree(length))
